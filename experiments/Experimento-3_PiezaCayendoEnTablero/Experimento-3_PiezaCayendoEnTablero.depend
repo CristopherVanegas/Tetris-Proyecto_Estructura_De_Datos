@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1680473776 source:c:\users\ismrj\desktop\experiments\experimento-3_piezacayendoentablero\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+	<time.h>
+
