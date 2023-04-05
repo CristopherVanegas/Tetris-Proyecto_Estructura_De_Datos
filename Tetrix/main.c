@@ -1,7 +1,6 @@
 //     PROYECTO - ESTRUCTURA DE DATOS     //
 //  Integrantes:                          //
 //          > Jose Munioz                 //
-//          > Kevin Santana               //
 //          > Sergio Balarezo             //
 //          > Yelena Urinia               //
 //          > Cristopher Vanegas          //
@@ -118,7 +117,7 @@ void imprimirFicha()
             fichaEnMovimiento = false;
         }
 
-        // Imprimir la ficha en la nueva posición
+        // Imprimir la ficha en la nueva posiciÃ³n
         for (n = 0; n < 4; n++) {
             for (ii = 0; ii < 4; ii++) {
                 if (shape[num][n][ii]) {
@@ -132,7 +131,7 @@ void imprimirFicha()
 
 int main()
 {
-    // Configura la semilla del generador de números aleatorios
+    // Configura la semilla del generador de nÃºmeros aleatorios
     srand(time(NULL));
     imprimirTabla();
     bool terminarJuego= true;
